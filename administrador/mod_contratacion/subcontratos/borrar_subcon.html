@@ -128,9 +128,23 @@
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+        <h2>Borrar Subcontrato</h2>
+         <form action="listar_subcon.php" method="POST" name="listar_subcon">
+            <table >                
+              <tr>
+                  <td>
+                    <label id="lbl_ingresar_rut_subcon">Rut Subcontrato: </label>                    
+                  </td>
+                  <td>
+                    <input id="txt_ingresar_rut_subcon" type="text" name="ingresar_rut_subcon" value="" required="require" />
+                  </td>
+                  <td>
+                    <input class="btn btn-success" type="submit" name="btn_buscar_subcon" value="Buscar" />
+                  </td>
+
+                  </tr>
+            </table>
+        </form> 
       </div>
 
      

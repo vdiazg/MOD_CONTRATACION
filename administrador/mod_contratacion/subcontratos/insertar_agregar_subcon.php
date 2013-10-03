@@ -19,7 +19,7 @@ if(isset($_POST['ingresar_nombre_subcon']) && !empty($_POST['ingresar_nombre_sub
 	mysql_select_db($db,$con)or die("Problema al Conectar a la Base Datos FoodCo");
 
 	mysql_query("INSERT INTO subcontratos (
-		
+		 
 				NOMBRE,
 				APELLIDO,
 				FECHA_NACIMIENTO,
